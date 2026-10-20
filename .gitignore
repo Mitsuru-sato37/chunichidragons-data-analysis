@@ -1,0 +1,14 @@
+# Source data and derived data must stay local, wherever placed in this repo.
+*.zip
+*.csv
+*.parquet
+*.arrow
+*.feather
+*.jsonl
+data/
+output/
+tmp*/
+__pycache__/
+*.py[cod]
+.venv/
+.env
