@@ -11,3 +11,9 @@
 - 検証: 対象5ファイルのMarkdown内部リンク4件を確認し、欠落0件・末尾空白0件。`git diff --check` 通過。Pythonの補助確認はWindowsAppsの起動権限エラーで実行できず、同等のリンク・空白確認をPowerShellで完了。コード・解析処理は変更していないため、テストは実行しない。
 - 作業中に `README.md` と `docs/repository_workflow.md` の別更新が現れたため、内容を読み、重複しないよう本作業では一般手順に触れず動画候補固有の保存先に範囲を絞った。両ファイルは上書きしていない。
 - 次の作業: 新しい中日動画候補が出たら、Driveの「#00動画」に正本を置き、`docs/video_idea_index.md` にタイトル・状態・リンクを追加する。作業終了時は「お疲れ」のGit引き継ぎ後にアーカイブ可否を確認する。
+
+## 2026-10-30 closeout
+
+- この作業の文書変更はコミット `c178384a14bcc0a84d0f2caafd3b13d7ba887f4a` としてpush済み。push後にローカルブランチと `origin/handoff/2026-dragons-analysis` が同じSHAを指すことを確認した。
+- 文書のみの変更のためコードテストは実施していない。Markdown内部リンク4件と空白検査は通過。
+- `.gitignore`、`docs/video_production_plan.md`、画像・生成スクリプトなど他作業の未コミット変更は今回のコミットに含めていない。
