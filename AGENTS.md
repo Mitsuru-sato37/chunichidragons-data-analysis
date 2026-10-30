@@ -9,3 +9,7 @@
 - Separate preseason, regular season, and interleague in output. Unknown game types should stop the aggregate and appear in validation.
 - Do not present these numbers as final video publication figures until checked against an independent source and usage rights are confirmed.
 - Run `python -m unittest discover -s tests -v` after changing the analyzer.
+
+## Chunichi video candidates
+
+- When suggesting Chunichi Dragons video ideas, check [video idea index](docs/video_idea_index.md) and the linked Drive `#00動画` folder first. For this repository's exact folder and candidate-save procedure, use [video candidate workflow](docs/drive_github_workflow.md).
