@@ -2,6 +2,8 @@
 
 最初の対象は [Nippon Baseball Data Repository](https://github.com/armstjc/Nippon-Baseball-Data-Repository)（NBDR）の2026年「Player Game Stats」と「PBP」です。中日（`team_id=4`）の試合別打撃成績を `game_id` でPBPに結び、日付と試合区分を検証してから月別に集計します。Python 3.10以上、追加パッケージ不要です。
 
+作業記録とDrive/GitHubの保存方法は[リポジトリ作業手順](docs/repository_workflow.md)を参照してください。
+
 ## データの配置と実行
 
 NBDRのZIPをローカルに保存し、そのパスをそのまま指定できます。ZIPの中に `game_stats/2026-*_game_stats.csv` と `pbp/2026-*_pbp.csv` が必要です。展開済みのCSVディレクトリも指定できます。ZIPとCSVはGitに入れません。リポジトリ内の `data/` も `.gitignore` の対象ですが、リポジトリ外のディレクトリも指定できます。
