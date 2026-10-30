@@ -4,7 +4,9 @@
 
 ## 保存先と連携
 
-DriveとGitHubの役割・保存先は[Drive/GitHub運用](drive_github_workflow.md)を参照する。共通ルールの正本は[Google Driveの「AI作業ファイル管理ルール」](https://docs.google.com/document/d/1SRV0Fn30bMyUeWZA4EbHf31eqJlPPef_ue8YBVASXdU/edit)。DriveとGitHubは自動同期されないため、Driveに成果物を保存したら、確認済みリンクをGitHubの該当する作業記録に残す。
+Google Driveには、採用した共有成果物・アイデアメモ・調査資料を保存する。GitHubにはコード・設定・テストに加え、保存ルール・作業手順・判断・検証・次の作業など再開に必要な記録を保存する。元データ・結合データ・派生レポートなど、このリポジトリのルールでGit対象外のものはローカルに置く。
+
+共通ルールの正本は[Google Driveの「AI作業ファイル管理ルール」](https://docs.google.com/document/d/1SRV0Fn30bMyUeWZA4EbHf31eqJlPPef_ue8YBVASXdU/edit)。DriveとGitHubは自動同期されないため、Driveに成果物を保存したら、読み戻して確認し、確認済みリンクをGitHubの該当する作業記録に残す。
 
 ## 作業ごとの記録
 
