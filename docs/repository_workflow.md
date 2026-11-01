@@ -6,7 +6,7 @@
 
 プロジェクト固有のアイデアはGitHubリポジトリを正本とし、公開可能な動画候補は docs/video_idea_index.md と必要に応じて docs/ideas/ に記録する。Google Driveには共有成果物・調査資料・取得資料を保存する。Publicリポジトリには公開可能な内容だけを記録し、非公開の企画詳細やDriveのタイトル・リンクを記載しない。元データ・結合データ・派生レポートなど、このリポジトリのルールでGit対象外のものはローカルに置く。
 
-共通ルールの正本は[Google Driveの「AI作業ファイル管理ルール」](https://docs.google.com/document/d/1SRV0Fn30bMyUeWZA4EbHf31eqJlPPef_ue8YBVASXdU/edit)。DriveとGitHubは自動同期されないため、Driveに成果物を保存したら、読み戻して確認し、確認済みリンクをGitHubの該当する作業記録に残す.
+共通ルールは foundation リポジトリの公開文書と、このリポジトリの `AGENTS.md` を参照する。DriveとGitHubは自動同期されないため、Driveに成果物を保存したら、読み戻して確認し、公開可能な確認済みリンクだけをGitHubの作業記録に残す。
 ## 作業ごとの記録
 
 1. 着手時にリポジトリの既存文書、保存先、Git差分を確認する。
