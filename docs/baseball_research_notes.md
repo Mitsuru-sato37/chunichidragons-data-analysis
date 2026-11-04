@@ -174,5 +174,6 @@ UZRのような指標は、個人が限られたデータだけから十分に�
 
 ## 関連資料
 
+- 打撃・ケースバッティング指標候補（RE24、WPA、期待得点ベースの選球判断、AIQ）: [batting_metric_candidates.md](batting_metric_candidates.md)
 - 投球指標候補と研究知見の扱い: [pitching_metric_candidates.md](pitching_metric_candidates.md)
 - リポジトリへの記録・保存方針: [repository_workflow.md](repository_workflow.md)
